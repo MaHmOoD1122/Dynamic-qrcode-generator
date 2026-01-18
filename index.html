@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR code component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main-container">
+        <div class="qr-code-container">
+          <div id="qrCode"></div>
+        </div>
+
+        <h1 class="header">
+          Improve your front-end skills by building projects
+        </h1>
+        <h2 class="description">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </h2>
+      </div>
+      <div class="link-container">
+        <label for="linkInput" class="link-label">Enter URL</label>
+        <input
+          type="text"
+          id="linkInput"
+          class="link-input"
+          placeholder="https://www.frontendmentor.io/home"
+        />
+        <button class="generate-btn">Generate Qr Code</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
